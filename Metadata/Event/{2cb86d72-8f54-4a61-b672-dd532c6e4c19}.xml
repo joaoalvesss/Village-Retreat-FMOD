@@ -163,10 +163,6 @@
 			<value>360</value>
 		</property>
 	</object>
-	<object class="SpatialiserEffect" id="{70d183e3-4631-4f12-ae2a-7a03b57bd4af}">
-		<property name="distanceRolloffType">
-			<value>1</value>
-		</property>
-	</object>
+	<object class="SpatialiserEffect" id="{70d183e3-4631-4f12-ae2a-7a03b57bd4af}" />
 	<object class="MixerBusFader" id="{48e9f99e-f071-4748-817a-f269541b43b0}" />
 </objects>
