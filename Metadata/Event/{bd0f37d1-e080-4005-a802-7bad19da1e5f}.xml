@@ -5,7 +5,7 @@
 			<value>footsteps1</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{2d5dd713-dd09-48a0-b601-bc8240042858}</destination>
@@ -116,7 +116,6 @@
 	<object class="MixerBusEffectChain" id="{0c82c486-a6e3-492b-a10b-5dbf64d63015}">
 		<relationship name="effects">
 			<destination>{0a94b8d6-1685-4eb2-b0a1-cf838e9f4e0d}</destination>
-			<destination>{8c9f0684-94be-441f-bafb-7f3657f3dc8f}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{23c45010-489d-4601-9083-d1ab3f4dec44}" />
@@ -131,7 +130,6 @@
 	</object>
 	<object class="MixerBusPanner" id="{ad8be7c4-c5f7-4fb1-8982-bf170495840c}" />
 	<object class="MixerBusFader" id="{0a94b8d6-1685-4eb2-b0a1-cf838e9f4e0d}" />
-	<object class="SpatialiserEffect" id="{8c9f0684-94be-441f-bafb-7f3657f3dc8f}" />
 	<object class="MixerBusFader" id="{4165d956-9b16-468f-8796-cd20b8713473}" />
 	<object class="MultibandDynamicsEffect" id="{de41cb84-1ebf-4ae9-91c8-a269bea814be}">
 		<property name="lowerFrequency">

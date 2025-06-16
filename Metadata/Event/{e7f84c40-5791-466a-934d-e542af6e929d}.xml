@@ -5,7 +5,7 @@
 			<value>footsteps2</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{2d5dd713-dd09-48a0-b601-bc8240042858}</destination>
@@ -113,7 +113,6 @@
 	<object class="MixerBusEffectChain" id="{56d4027e-ef62-431a-8a6f-9756b24d3539}">
 		<relationship name="effects">
 			<destination>{c94e0c9b-b8d0-43e0-b8e1-4d31b0992e4b}</destination>
-			<destination>{cf7b6a28-848c-45f0-818c-1dfe32d33784}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{f1d1645d-8230-4340-8547-f1c7171f0161}" />
@@ -128,7 +127,6 @@
 	</object>
 	<object class="MixerBusPanner" id="{d5229f1c-d916-4511-9cc7-3681a88de2e8}" />
 	<object class="MixerBusFader" id="{c94e0c9b-b8d0-43e0-b8e1-4d31b0992e4b}" />
-	<object class="SpatialiserEffect" id="{cf7b6a28-848c-45f0-818c-1dfe32d33784}" />
 	<object class="SFXReverbEffect" id="{c7b5822b-fcb4-4acf-9b90-c40a98eb442b}">
 		<property name="decayTime">
 			<value>2800</value>

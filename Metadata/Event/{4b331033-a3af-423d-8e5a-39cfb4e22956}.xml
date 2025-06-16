@@ -5,7 +5,7 @@
 			<value>ambience_wind_birds_leaves</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{9800b63c-6922-401e-806b-195ea75b1f3e}</destination>
@@ -397,7 +397,6 @@
 	<object class="MixerBusEffectChain" id="{fdf751a7-0824-494f-bfd5-70b8d2f1ca84}">
 		<relationship name="effects">
 			<destination>{dd2b4910-ddee-4df9-a83b-d2ba6da5edda}</destination>
-			<destination>{ec91e05d-373c-4a13-a734-cc1952b72105}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{cacfcee2-9431-424f-a738-a7c9e1445768}" />
@@ -411,7 +410,6 @@
 	</object>
 	<object class="MixerBusPanner" id="{86654db8-3453-4ca4-b6cc-5b6660a9031a}" />
 	<object class="MixerBusFader" id="{dd2b4910-ddee-4df9-a83b-d2ba6da5edda}" />
-	<object class="SpatialiserEffect" id="{ec91e05d-373c-4a13-a734-cc1952b72105}" />
 	<object class="MixerBusFader" id="{880ca68b-4627-4c22-a508-b8056e67cbd9}" />
 	<object class="MultibandEqEffect" id="{fadb227a-eb01-42d6-93ce-a7545a2c2762}">
 		<property name="frequencyA">

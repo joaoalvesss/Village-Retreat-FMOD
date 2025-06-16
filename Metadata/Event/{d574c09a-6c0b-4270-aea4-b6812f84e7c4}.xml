@@ -5,7 +5,7 @@
 			<value>ambience_wind_birds</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{9800b63c-6922-401e-806b-195ea75b1f3e}</destination>
@@ -337,7 +337,6 @@
 	<object class="MixerBusEffectChain" id="{2c244d00-7866-4754-a592-59d0519d44e4}">
 		<relationship name="effects">
 			<destination>{d0358229-9f49-448c-8194-6afa5b567ed8}</destination>
-			<destination>{e97c053a-2d7d-4dc5-a9c3-c0523c98fba6}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{e2db3383-43f2-4947-b680-3ca119d608a9}" />
@@ -348,13 +347,12 @@
 			<destination>{6e54449e-2513-4627-8f5f-8f08f0b5e5ab}</destination>
 		</relationship>
 	</object>
-	<object class="MixerBusPanner" id="{d672841c-c242-41a7-a464-c40fbb9673af}" />
-	<object class="MixerBusFader" id="{d0358229-9f49-448c-8194-6afa5b567ed8}" />
-	<object class="SpatialiserEffect" id="{e97c053a-2d7d-4dc5-a9c3-c0523c98fba6}">
-		<property name="distanceRolloffType">
-			<value>2</value>
+	<object class="MixerBusPanner" id="{d672841c-c242-41a7-a464-c40fbb9673af}">
+		<property name="overridingOutputFormat">
+			<value>1</value>
 		</property>
 	</object>
+	<object class="MixerBusFader" id="{d0358229-9f49-448c-8194-6afa5b567ed8}" />
 	<object class="MixerBusFader" id="{85705497-d893-4902-9d32-4f9ff1d6c74d}" />
 	<object class="MultibandEqEffect" id="{6e54449e-2513-4627-8f5f-8f08f0b5e5ab}">
 		<property name="frequencyA">

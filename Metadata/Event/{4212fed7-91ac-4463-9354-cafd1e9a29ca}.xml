@@ -5,7 +5,7 @@
 			<value>water_footsteps2</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{2d5dd713-dd09-48a0-b601-bc8240042858}</destination>
@@ -135,7 +135,6 @@
 	<object class="MixerBusEffectChain" id="{fa557910-ad1c-46d4-a41d-024506205deb}">
 		<relationship name="effects">
 			<destination>{87dea123-26d0-49f7-86f5-dd15735d7519}</destination>
-			<destination>{ddd099a3-167e-4463-89d0-840015491f4e}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{268426a5-7747-4a95-8357-a289b94ca4b3}" />
@@ -171,7 +170,6 @@
 	</object>
 	<object class="MixerBusPanner" id="{382c0ae5-f186-4c5a-9357-9f281ce49126}" />
 	<object class="MixerBusFader" id="{87dea123-26d0-49f7-86f5-dd15735d7519}" />
-	<object class="SpatialiserEffect" id="{ddd099a3-167e-4463-89d0-840015491f4e}" />
 	<object class="AutomationPoint" id="{321ddf31-be35-4f6a-a274-c129ed7d0f39}">
 		<property name="position">
 			<value>3.1500000000000004</value>

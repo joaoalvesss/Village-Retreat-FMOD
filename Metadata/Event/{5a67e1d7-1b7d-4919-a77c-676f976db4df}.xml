@@ -5,7 +5,7 @@
 			<value>10s_countdown1</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>0</value>
 		</property>
 		<relationship name="folder">
 			<destination>{7bccbf73-c048-4f2f-9c9b-af4766771cb5}</destination>
@@ -203,7 +203,6 @@
 	<object class="MixerBusEffectChain" id="{a8236276-2493-41ae-beb2-b4b3c2158873}">
 		<relationship name="effects">
 			<destination>{91f01914-4f57-474f-af9a-fff696f3b184}</destination>
-			<destination>{b634aca0-8d86-466d-bcd5-e13e025e7cbc}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{14d8011f-0184-46e4-8928-a8c4160ebaab}" />
@@ -222,7 +221,6 @@
 	</object>
 	<object class="MixerBusPanner" id="{6e34736b-1a03-42da-beb2-f7f935a594bf}" />
 	<object class="MixerBusFader" id="{91f01914-4f57-474f-af9a-fff696f3b184}" />
-	<object class="SpatialiserEffect" id="{b634aca0-8d86-466d-bcd5-e13e025e7cbc}" />
 	<object class="MixerBusFader" id="{2553baae-7c6e-4b67-af1f-93db8799c6c8}" />
 	<object class="MixerBusFader" id="{54c12127-35fc-4a96-b712-5846f8e9adac}" />
 	<object class="PitchShifterEffect" id="{26dc3b74-27ce-4a0d-a51a-eabff5eb0a35}">
