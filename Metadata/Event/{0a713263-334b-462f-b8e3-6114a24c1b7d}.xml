@@ -124,7 +124,6 @@
 		<relationship name="effects">
 			<destination>{2461034a-5042-4eb1-8bce-a3d2865b2e57}</destination>
 			<destination>{552caee9-5991-4b15-979d-90ade7f08b28}</destination>
-			<destination>{5a8438e8-9016-4983-bfee-004da8cbf8e4}</destination>
 			<destination>{fbe12423-3bb9-4787-a080-2678e317eabf}</destination>
 		</relationship>
 	</object>
@@ -137,11 +136,6 @@
 		</property>
 		<property name="qualityA">
 			<value>5.66571808</value>
-		</property>
-	</object>
-	<object class="PannerEffect" id="{5a8438e8-9016-4983-bfee-004da8cbf8e4}">
-		<property name="stereoPan">
-			<value>100</value>
 		</property>
 	</object>
 	<object class="TremoloEffect" id="{fbe12423-3bb9-4787-a080-2678e317eabf}" />
