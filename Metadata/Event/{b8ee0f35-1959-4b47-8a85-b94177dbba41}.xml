@@ -5,7 +5,7 @@
 			<value>cortar_madeira1</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{4dd2618d-4d90-4475-aa44-9fb0c05a76cf}</destination>
@@ -206,7 +206,6 @@
 	<object class="MixerBusEffectChain" id="{9e6022af-da41-4059-837f-883629aeaa3f}">
 		<relationship name="effects">
 			<destination>{f5ed0c8c-b753-4c87-8db7-14899e35c2fa}</destination>
-			<destination>{44837b03-8181-4374-b052-970083ee0ee9}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{79977ad0-dd2a-4038-9a61-7270901288c0}" />
@@ -279,7 +278,6 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{e150e50a-1421-4adf-9641-ed4d06fae08e}">
 		<relationship name="effects">
-			<destination>{ed3ef440-8473-43e5-b726-ca877dc1c7ba}</destination>
 			<destination>{74d71ccd-88d5-4128-b557-2d66d99d6b54}</destination>
 			<destination>{c7e1150b-fa7e-4456-924a-b2c9669e9a19}</destination>
 			<destination>{6724eafb-5e0a-4b11-bce2-a8100f91af22}</destination>
@@ -287,7 +285,6 @@
 	</object>
 	<object class="MixerBusPanner" id="{1bbaa6ef-d264-4137-bf06-d1ccd4e5d5f8}" />
 	<object class="MixerBusFader" id="{f5ed0c8c-b753-4c87-8db7-14899e35c2fa}" />
-	<object class="SpatialiserEffect" id="{44837b03-8181-4374-b052-970083ee0ee9}" />
 	<object class="AutomationPoint" id="{0de78360-90d9-4b24-83aa-430fb3840085}">
 		<property name="position">
 			<value>1.3</value>
@@ -400,11 +397,6 @@
 		</property>
 		<property name="value">
 			<value>0</value>
-		</property>
-	</object>
-	<object class="PannerEffect" id="{ed3ef440-8473-43e5-b726-ca877dc1c7ba}">
-		<property name="stereoPan">
-			<value>100</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{74d71ccd-88d5-4128-b557-2d66d99d6b54}" />

@@ -5,7 +5,7 @@
 			<value>cortar_madeira</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{4dd2618d-4d90-4475-aa44-9fb0c05a76cf}</destination>
@@ -113,7 +113,6 @@
 	<object class="MixerBusEffectChain" id="{674fe429-8693-4f9d-93bf-6b0307e45ba5}">
 		<relationship name="effects">
 			<destination>{1b743629-82a5-4734-8e45-6acac1e86e98}</destination>
-			<destination>{34cf8d2c-5fa5-4ee1-9468-c07ad51d2179}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{4f10eb18-bf15-4f41-9157-7b498d24408b}" />
@@ -126,7 +125,6 @@
 	</object>
 	<object class="MixerBusPanner" id="{91e8c13d-f9cc-40b1-96bc-249c3fea2b67}" />
 	<object class="MixerBusFader" id="{1b743629-82a5-4734-8e45-6acac1e86e98}" />
-	<object class="SpatialiserEffect" id="{34cf8d2c-5fa5-4ee1-9468-c07ad51d2179}" />
 	<object class="MixerBusFader" id="{0031de43-a8f0-46f5-9e9a-977e47867a1a}" />
 	<object class="MultibandEqEffect" id="{82e3b5ac-6c22-4dcf-bc01-b145299e69de}">
 		<property name="frequencyA">

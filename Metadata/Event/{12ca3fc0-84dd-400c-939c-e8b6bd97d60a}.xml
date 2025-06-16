@@ -5,7 +5,7 @@
 			<value>countdown_signal2</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{6f626710-1275-4209-a8c1-33b27dab2d11}</destination>
@@ -123,7 +123,6 @@
 	<object class="MixerBusEffectChain" id="{424175db-b080-4296-b02f-c1a53ef81adf}">
 		<relationship name="effects">
 			<destination>{4b8a7bb3-aa11-4ec2-84ff-4f915aa606bc}</destination>
-			<destination>{09257523-7246-471d-8ab8-4092a367a290}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{4e31a460-af34-4712-a3bc-5f97dfa90ee1}">
@@ -145,11 +144,6 @@
 	</object>
 	<object class="MixerBusPanner" id="{1c6fb3ec-1296-4c96-ab1a-ce1405532a12}" />
 	<object class="MixerBusFader" id="{4b8a7bb3-aa11-4ec2-84ff-4f915aa606bc}" />
-	<object class="SpatialiserEffect" id="{09257523-7246-471d-8ab8-4092a367a290}">
-		<property name="distanceRolloffType">
-			<value>2</value>
-		</property>
-	</object>
 	<object class="MixerBusFader" id="{e5d8a1d5-667c-4a91-8f7b-fb8f34557a7a}" />
 	<object class="SFXReverbEffect" id="{45ed2a93-97b9-4562-8c15-d417f5300963}">
 		<property name="decayTime">

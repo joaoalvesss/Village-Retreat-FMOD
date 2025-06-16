@@ -5,7 +5,7 @@
 			<value>rotação</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{7bccbf73-c048-4f2f-9c9b-af4766771cb5}</destination>
@@ -113,7 +113,6 @@
 	<object class="MixerBusEffectChain" id="{b79454b4-3a95-423f-922c-97ca9d6f69b1}">
 		<relationship name="effects">
 			<destination>{5ce93983-c1ef-40c6-8719-8754c5ff87cf}</destination>
-			<destination>{cfebb787-8855-4aa2-a4a0-f1afe7ffe486}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{72f2dee1-65f6-4f15-ad4a-57698ee3f2d9}" />
@@ -122,12 +121,10 @@
 		<relationship name="effects">
 			<destination>{914c5594-97b5-43ba-9a1a-dc87bc0dfa19}</destination>
 			<destination>{3cb78e95-d254-4c9f-ace1-b85e50530075}</destination>
-			<destination>{3cdc45c7-2f79-47c6-a7f6-eeb8b3026ba3}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{e14271e2-cff5-4c35-807b-bfaedb54b212}" />
 	<object class="MixerBusFader" id="{5ce93983-c1ef-40c6-8719-8754c5ff87cf}" />
-	<object class="SpatialiserEffect" id="{cfebb787-8855-4aa2-a4a0-f1afe7ffe486}" />
 	<object class="MultibandEqEffect" id="{914c5594-97b5-43ba-9a1a-dc87bc0dfa19}">
 		<property name="frequencyA">
 			<value>7186.53516</value>
@@ -137,9 +134,4 @@
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{3cb78e95-d254-4c9f-ace1-b85e50530075}" />
-	<object class="PannerEffect" id="{3cdc45c7-2f79-47c6-a7f6-eeb8b3026ba3}">
-		<property name="stereoPan">
-			<value>100</value>
-		</property>
-	</object>
 </objects>

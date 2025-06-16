@@ -5,7 +5,7 @@
 			<value>UI_hover</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{43cafa22-206f-4fc5-8591-f901b8f33325}</destination>
@@ -113,7 +113,6 @@
 	<object class="MixerBusEffectChain" id="{6483997f-81c7-456d-8aed-a0208463440e}">
 		<relationship name="effects">
 			<destination>{e1c9263f-1937-4549-a842-02af5e57c7e3}</destination>
-			<destination>{827c89b6-788a-41bb-baa1-0470a386c9aa}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{fe54f068-fa67-415a-acc6-eb3977f0aaa7}" />
@@ -125,6 +124,5 @@
 	</object>
 	<object class="MixerBusPanner" id="{e0dbea72-d6fe-4ff5-869c-918bdf29a2fe}" />
 	<object class="MixerBusFader" id="{e1c9263f-1937-4549-a842-02af5e57c7e3}" />
-	<object class="SpatialiserEffect" id="{827c89b6-788a-41bb-baa1-0470a386c9aa}" />
 	<object class="MixerBusFader" id="{44de0d43-170c-4e07-96e7-ff74fd5b6d2b}" />
 </objects>

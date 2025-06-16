@@ -5,7 +5,7 @@
 			<value>countdown_signal</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{6f626710-1275-4209-a8c1-33b27dab2d11}</destination>
@@ -116,7 +116,6 @@
 	<object class="MixerBusEffectChain" id="{8644299b-7fa4-4fdd-89f9-d2fe2ab6b5e7}">
 		<relationship name="effects">
 			<destination>{af95c17d-db65-434e-bf46-4f420de1db47}</destination>
-			<destination>{f26c81dc-9a5c-4288-9cc4-bba43f5afd13}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{82c5272b-f375-4207-a7f8-49f4ad255703}" />
@@ -132,7 +131,6 @@
 	</object>
 	<object class="MixerBusPanner" id="{05445ccc-d095-46ce-b70d-1a77ea586d3c}" />
 	<object class="MixerBusFader" id="{af95c17d-db65-434e-bf46-4f420de1db47}" />
-	<object class="SpatialiserEffect" id="{f26c81dc-9a5c-4288-9cc4-bba43f5afd13}" />
 	<object class="MixerBusFader" id="{ed58738f-af35-432c-bb46-b8f72b44a80e}" />
 	<object class="TransceiverEffect" id="{7b91e0fe-4836-4a4b-9137-b5c56f126577}">
 		<property name="transmitMode">

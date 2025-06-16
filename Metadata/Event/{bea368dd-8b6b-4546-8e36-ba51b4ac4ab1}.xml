@@ -5,7 +5,7 @@
 			<value>music_animalcrossing3</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{74af8608-1c71-4b93-9dd4-91a4813563a4}</destination>
@@ -119,30 +119,18 @@
 	<object class="MixerBusEffectChain" id="{7c2427fe-45c3-4ed9-bbf3-86aef4bc2c6c}">
 		<relationship name="effects">
 			<destination>{16b22f45-c93c-4286-90ff-1420c9e6d5f6}</destination>
-			<destination>{85a25ddc-75ae-4aed-bc25-b700f3a62ec0}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{de5dd5de-bebd-4aa1-b17f-8d5cd47c2868}" />
 	<object class="MixerBusFader" id="{34f283d8-4441-407c-af7b-578345170b34}" />
 	<object class="MixerBusEffectChain" id="{70df6e6a-695e-4703-ba65-2c656dfd5b88}">
 		<relationship name="effects">
-			<destination>{52a55012-243f-44b6-a724-efde8c310f75}</destination>
 			<destination>{0f94d52c-3ee7-485d-a580-132774e35a75}</destination>
 			<destination>{87ee9526-0b83-4e06-9216-97af4d4e04c5}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{2f37d37f-f86c-45f8-99c6-4ae50eb57041}" />
 	<object class="MixerBusFader" id="{16b22f45-c93c-4286-90ff-1420c9e6d5f6}" />
-	<object class="SpatialiserEffect" id="{85a25ddc-75ae-4aed-bc25-b700f3a62ec0}">
-		<property name="distanceRolloffType">
-			<value>2</value>
-		</property>
-	</object>
-	<object class="PannerEffect" id="{52a55012-243f-44b6-a724-efde8c310f75}">
-		<property name="stereoPan">
-			<value>-36</value>
-		</property>
-	</object>
 	<object class="MixerBusFader" id="{0f94d52c-3ee7-485d-a580-132774e35a75}" />
 	<object class="MultibandEqEffect" id="{87ee9526-0b83-4e06-9216-97af4d4e04c5}">
 		<property name="frequencyA">

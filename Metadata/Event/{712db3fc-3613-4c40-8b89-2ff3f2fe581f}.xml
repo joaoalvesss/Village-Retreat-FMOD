@@ -5,7 +5,7 @@
 			<value>music_animalcrossing2</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{74af8608-1c71-4b93-9dd4-91a4813563a4}</destination>
@@ -138,7 +138,6 @@
 	<object class="MixerBusEffectChain" id="{943deb48-41bd-4c05-91b9-020c797253ce}">
 		<relationship name="effects">
 			<destination>{a5053034-a5b4-4c37-928d-4986331b0b0e}</destination>
-			<destination>{958498cf-2921-4585-8ad7-b8258e9035c5}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{6a61785b-cc1f-43cd-b138-08063e0f104d}" />
@@ -169,12 +168,10 @@
 		<relationship name="effects">
 			<destination>{1a63743e-b3e4-4be5-a3fd-f358eb978ea8}</destination>
 			<destination>{277b60b3-7a33-4640-a8a4-fd8be82fe2e9}</destination>
-			<destination>{9d3d404e-142c-4d29-9f90-1d3afadcf964}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{298d4a83-5776-428c-8ec2-b615cd36f914}" />
 	<object class="MixerBusFader" id="{a5053034-a5b4-4c37-928d-4986331b0b0e}" />
-	<object class="SpatialiserEffect" id="{958498cf-2921-4585-8ad7-b8258e9035c5}" />
 	<object class="AutomationPoint" id="{57291caa-279e-49bc-8437-b2b6b4f45708}">
 		<property name="position">
 			<value>45</value>
@@ -220,11 +217,6 @@
 		</property>
 		<property name="qualityA">
 			<value>0.402225643</value>
-		</property>
-	</object>
-	<object class="PannerEffect" id="{9d3d404e-142c-4d29-9f90-1d3afadcf964}">
-		<property name="stereoPan">
-			<value>-50</value>
 		</property>
 	</object>
 </objects>
